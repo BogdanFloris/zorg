@@ -1,6 +1,7 @@
 const std = @import("std");
-const glfw = @import("mach_glfw");
+
 const gl = @import("gl");
+const glfw = @import("mach_glfw");
 
 var gl_procs: gl.ProcTable = undefined;
 
